@@ -27,3 +27,10 @@ iris-flower-classification/
 ├── requirements.txt
 ├── README.md
 └── .gitignore
+
+## 🌐 Interactive Web App
+
+You can run the interactive version using Streamlit:
+
+```bash
+streamlit run app.py
