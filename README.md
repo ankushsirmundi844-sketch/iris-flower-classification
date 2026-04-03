@@ -34,3 +34,15 @@ You can run the interactive version using Streamlit:
 
 ```bash
 streamlit run app.py
+
+### Step 4: Run the Interactive App
+
+#### Using GitHub Codespaces (easiest, no installation on laptop):
+
+1. Open your repo → Click **<> Code** → **Codespaces** → **Create codespace on main**
+2. In the terminal (bottom panel), run:
+
+```bash
+source venv/bin/activate   # or venv\Scripts\activate on Windows
+pip install -r requirements.txt
+streamlit run app.py
